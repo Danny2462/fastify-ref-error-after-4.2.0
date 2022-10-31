@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2020"],
+        "module": "CommonJS",
+        "target": "ES2020",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "exactOptionalPropertyTypes": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/@types/*",
+                "./*"
+            ],
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
